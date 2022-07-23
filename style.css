@@ -13,7 +13,7 @@
 }
 
 .container {
-  width: 600px;
+  width: 60%;
   margin: 0 auto;
   padding: 0.5rem;
 }
@@ -141,8 +141,12 @@ a {
   font-weight: 500;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 900px) {
   .container {
     width: 100%;
+  }
+
+  .container .images .profile img {
+    width: 50%;
   }
 }
