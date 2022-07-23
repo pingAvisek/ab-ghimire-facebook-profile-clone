@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #216fdb;
+  --secondary: #e5e6eb;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.container .images .cover img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.container .images .profile {
+  text-align: center;
+  margin-top: -6.5rem;
+}
+
+.container .images .profile img {
+  width: 200px;
+  border: 5px solid #fff;
+  /* border: 5px solid var(--primary); */
+  border-radius: 50%;
+}
+
+.container .name-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .name-bio h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+#addToStory {
+  flex-basis: 45%;
+  background-color: var(--primary);
+}
+
+#editProfile {
+  flex-basis: 45%;
+}
+
+#more {
+  flex-basis: 10%;
+}
+
+.btns button {
+  margin: 0.5rem 0.5rem;
+  padding: 0.4rem 0.9rem;
+  border: unset;
+  border-radius: 5px;
+  background-color: var(--secondary);
+}
+
+.btns button:hover {
+  cursor: pointer;
+}
+
+.btns a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.btns .fa-solid {
+  padding: 0 0.5rem;
+}
+
+hr {
+  color: var(--secondary);
+  margin: 1rem auto;
+}
+
+a {
+  text-decoration: none;
+  /* cursor: pointer; */
+  color: #000;
+}
+
+.social-media-links .fa-brands,
+.see-more .fa-solid {
+  color: gray;
+}
+
+.social-media-links * {
+  margin: 0.2rem auto;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5rem auto;
+  flex-wrap: wrap;
+}
+
+.hobbies > div {
+  margin: 0.5rem;
+  padding: 0.2rem 0.6rem;
+  background-color: var(--secondary);
+  border-radius: 20px;
+}
+
+.edit-public-details {
+  width: 100%;
+  padding: 0.5rem 0;
+  border: unset;
+  border-radius: 5px;
+  background-color: #e7f3ff;
+}
+
+.edit-public-details a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
