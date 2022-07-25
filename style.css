@@ -12,8 +12,12 @@
   --secondary: #e5e6eb;
 }
 
+html {
+  font-size: 14px;
+}
+
 .container {
-  width: 60%;
+  width: 500px;
   margin: 0 auto;
   padding: 0.5rem;
 }
@@ -109,6 +113,7 @@ a {
 
 .social-media-links * {
   margin: 0.2rem auto;
+  letter-spacing: 0.2px;
 }
 
 .hobbies {
@@ -141,12 +146,20 @@ a {
   font-weight: 500;
 }
 
-@media (max-width: 900px) {
+/* Media Query for small screens */
+
+@media (max-width: 500px) {
   .container {
     width: 100%;
   }
+  .btns .fa-solid {
+    padding: 0 0.1rem;
+    font-size: 0.8rem;
+  }
+}
 
-  .container .images .profile img {
-    width: 50%;
+@media (max-width: 338px) {
+  html {
+    font-size: 11px;
   }
 }
